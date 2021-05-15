@@ -21,16 +21,21 @@ body {
     height: 100px;
 }
 
+h1 {
+  font-size: 60px;
+}
+
 .heading {
   text-align: center;
+  font-size: 50px;
+  color: black;
+  font-weight: bold;
 }
 
 .hero {
   background-color: #0C0B1F;
+  color: #f2f2f2;
 }
-
-.myDesigns {}
-
 
 /* My Work Section */
 .myWork {
@@ -96,6 +101,9 @@ body {
     padding: 25px;
     text-align: center;
   }
+
+
+  
 .footerContainer {
   display: flex;
   padding: 60px 30px;
