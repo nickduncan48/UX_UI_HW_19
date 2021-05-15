@@ -21,6 +21,16 @@ body {
     height: 100px;
 }
 
+.heading {
+  text-align: center;
+}
+
+.hero {
+  background-color: #0C0B1F;
+}
+
+.myDesigns {}
+
 
 /* My Work Section */
 .myWork {
@@ -36,6 +46,7 @@ body {
   "img1 content1"
   "img2 content2"
   "img3 content3"
+  "img4 content4"
   ;
 }
 .workGrid img {
@@ -53,7 +64,7 @@ body {
 .img3 {
   grid-area: img3;
 }
-.img1, .img2, .img3, .content1, .content2, .content3 {
+.img1, .img2, .img3, .img4, .content1, .content2, .content3, .content4 {
   padding: 80px;
 }
 .content1 {
@@ -65,6 +76,9 @@ body {
 .content3 {
   grid-area: content3;
 }
+.content4 {
+  grid-area: content4;
+}
 
 
   
@@ -73,13 +87,60 @@ body {
 .flexContainer {
     display: flex;
     padding: 60px 30px;
+    background-color: #0C0B1F;
+    color: white;
+    text-align: center;
   }
   .flexContainer div {
     width: 33%;
     padding: 25px;
+    text-align: center;
   }
-
+.footerContainer {
+  display: flex;
+  padding: 60px 30px;
+}
+.footerContainerdiv {
+  width: 25%;
+  padding: 25%;
+}
   footer {
     justify-content: center;
-    background-color: #0C0B1F;
+    background-color: white;
   }
+
+#design {
+  width: 210px;
+  height: auto;
+}
+#video {
+  width: 185px;
+  height: auto;
+}
+#web {
+  width: 150px;
+  height: auto
+}
+#footerImg {
+  width: 500px;
+  height: auto
+}
+#email {
+  width: 55px;
+  height: 50px;
+  margin-bottom: 20px;
+}
+#phone {
+  width: 55px;
+  height: 45px;
+}
+#linkedin {
+  width: 125px;
+  height: 125px;
+  margin-bottom: 20px;
+} 
+#twitter {
+  width: 125px;
+  height: 125px;
+  margin-bottom: 20px;
+}
