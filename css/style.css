@@ -21,20 +21,22 @@ body {
     height: 100px;
 }
 
-h1 {
-  font-size: 60px;
-}
+
 h2 {
   font-size: 20px;
 }
 h3 {
   font-size: 40px;
 }
+h4 {
+  font-size: 25px;
+}
 .heading {
   color: black;
   font-weight: bold;
   text-align: center;
   margin-bottom: 15px;
+  font-size: 60px;
 }
 
 .hero {
@@ -120,6 +122,14 @@ button {
     padding: 25px;
     text-align: center;
   }
+  .mySkills {
+    color: white;
+    font-weight: bold;
+    font-size: 60px;
+    padding-left: 625px;
+    background-color: #0C0B1F;
+    margin: auto;
+  }
   #design {
     width: 210px;
     height: auto;
@@ -144,8 +154,8 @@ button {
 }
 
 #footerImg {
-  width: 150px;
-  height: 150px;
+  width: 350px;
+  height: 350px;
 }
 #linkedin {
   width: 50px;
