@@ -42,7 +42,7 @@ h4 {
   font-size: 25px;
 }
 .heading {
-  color: black;
+  color: whitesmoke;
   font-weight: bold;
   text-align: center;
   margin-bottom: 15px;
@@ -62,13 +62,14 @@ button {
   color: white;
 }
 
+/* My Design Section */
 .myDesigns {
   background-color: #373738;
   padding: 40px 10px;
 
 }
 
-/* My Work Section */
+/* My Video Section */
 #myWork {
   padding: 60px 30px;
   background-color: #373738;
@@ -153,16 +154,8 @@ button {
     height: auto
   }
   
-
+ /* My Footer Section */
   
-.footerContainer {
-  display: flex;
-  justify-content: center;
-  background-color: #0C0B1F;
-  color: whitesmoke;
-  text-align: center;
-}
-
 #footerImg {
   width: 350px;
   height: 350px;
